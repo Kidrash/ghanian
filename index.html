@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>know your akan name</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+   	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+   	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">   
+   	<link rel='stylesheet' href='css/styles.css'>
+</head>
+<body background="/ghana.jpg">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-4 intro">
+				<h1 class="akan-heading"> <span class="starting-name">Ghanaian</span>  <span class="heading-name">Akan</span> <span class="closing-name">Names</span></h1>
+				<hr>
+				<div class="akan-description">
+					<p class="fs12">We all have names , but not every one knows how  or they were named. However there are some people who know where ther names origianated from. These are people from Ghana, a west african country. Ghanaians have a naming  system where they get named depending on the day they are born.</p>
+					<p><span class="working"><em>*HOW IT WORKS*</em></span></p>
+    <p class="fs12">By providing your details as required below the application will take your birth dates and calculate the day of week in which you were born hence giving you your Akan name.</p>
+					<p class="fs12">Here are some Ghanaian Names:</p>
+					<div class="row ghanaian-names">
+						<div class="col-md-6">
+							<h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female</h4>
+							<ul class="fs11">
+								<li>Sunday: Akosua</li>
+								<li>Monday: Adwoa</li>
+								<li>Tuesday: Abenaa</li>
+								<li>Wednesday: Akua</li>
+								<li>Thursday:  Yaa</li>
+								<li>Friday: Afua</li>
+								<li>Saturday: Ama</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h4><i class="fa fa-male"></i>&nbsp;&nbsp; Male</h4>
+							<ul class="fs11">
+								<li>Sunday: Kwasi</li>
+								<li>Monday: Kwadwo</li>
+								<li>Tuesday: Kwabena</li>
+								<li>Wednesday: Kwaku</li>
+								<li>Thursday:  Yaw</li>
+								<li>Friday: Kofi</li>
+								<li>Saturday: Kwame</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container"></div>
+				<di class="row"> </div>
+					<div class="col-md-2 mt30 akan-form">
+				<h5>Please Enter Your Birthdate In The Slot Below:</h5>
+						<div class="add-stylist-form">
+						 <form>
+							<div class="form-group mb15">
+			              	<label class="label">Birthday</label>
+			               		<div class="input-group mb15">
+				                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+				                <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
+				            	</div>
+			            	</div>   
+
+								<div class="form-group mb15">
+			              	<label class="label">Gender</label>
+			               	<div class="rdio rdio-default fs11">
+		                        <input type="radio" name="gender" id="male" value="Male">
+		                        <label for="male">&nbsp;&nbsp;Male</label>
+		                    </div>
+		                    <div class="rdio rdio-default fs11">
+		                        <input type="radio" name="gender" value="Female" id="female">
+		                        <label for="female">&nbsp;&nbsp;Female</label>
+		                     </div>
+			            		</div>
+			            <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+			            <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
+						 </form>	
+						</div>
+				<hr>
+				<div class="your-akan-name">
+					<p id="message" class="output"></p>
+				</div>
+					</div>
+
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

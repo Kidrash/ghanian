@@ -1,0 +1,242 @@
+/********** FILE IMPORTS **********/
+/*************************************/
+
+@import url('bootstrap.min.css');
+@import url('font-awesome.css');
+@import url('animate.css');
+
+
+/********** GENERAL STUFF **********/
+/*************************************/
+
+body {
+    font-family: 'Open Sans',serif;
+    padding-top: 54px;
+    padding-left: 54px;
+    color: #343a40;
+    background-size: 100%;
+}
+
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: larger;
+}
+
+.fs11 {
+    font-size: 15px;
+}
+
+.fs12 {
+    font-size: 20px;
+}
+
+.fs13 {
+    font-size: 20px;
+}
+
+.fs14 {
+    font-size: 20px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs30 {
+    font-size: 30px;
+}
+
+.mt0{
+ margin-top: 0;   
+}
+
+.mt10{
+ margin-top: 10px;   
+}
+
+.mt20{
+ margin-top: 20px;   
+}
+
+.mt30{
+ margin-top: 30px;   
+}
+
+.mt40{
+ margin-top: 40px;   
+}
+
+.mt50{
+ margin-top: 50px;   
+}
+
+.large-red-button {
+    width: 100%;
+    padding: 30px;
+    border-color: blue;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.intro h1 {
+    font-size: 80px;
+}
+
+span.starting-name {
+    color: red ;
+}
+
+span.heading-name {
+    color: yellow !important;
+}
+
+span.closing-name {
+    color: green;
+}
+
+.ghanaian-names h4, .akan-form h5 {
+    color: green;
+}
+
+.rdio input[type="radio"]:checked + label::after {
+    background-color: green;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.your-akan-name {
+    padding-top: 40px;
+}
+
+.your-akan-name p {
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.rdio {
+    position: relative;
+}
+
+.rdio input[type="radio"] {
+    opacity: 0;
+}
+
+.rdio label {
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: 7px !important;
+}
+
+.rdio label:before {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    content: '';
+    display: inline-block;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #bbb;
+    background: #fff;
+}
+
+.rdio input[type="radio"]:disabled + label  {
+    color: #999;
+}
+
+.rdio input[type="radio"]:disabled + label:before  {
+    background-color: #eee;
+}
+
+.rdio input[type="radio"]:checked + label::after  {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    display: inline-block;
+    font-size: 11px;
+    width: 10px;
+    height: 10px;
+    background-color: darkgreen;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.rdio-default input[type="radio"]:checked + label:before {
+    border-color: darkgoldenrod;
+}
+
+.rdio-primary input[type="radio"]:checked + label:before {
+    border-color: darkgreen;
+}
+
+.rdio-primary input[type="radio"]:checked + label::after {
+    background-color: darkgreen;
+}
+
+.rdio-warning input[type="radio"]:checked + label:before {
+    border-color: red;
+}
+
+.rdio-warning input[type="radio"]:checked + label::after {
+    background-color: red;
+}
+
+.rdio-success input[type="radio"]:checked + label:before {
+    border-color: yellow;
+}
+
+.rdio-success input[type="radio"]:checked + label::after {
+    background-color: yellow;
+}
+
+.rdio-danger input[type="radio"]:checked + label:before {
+    border-color: darkgoldenrod;
+}
+
+.rdio-danger input[type="radio"]:checked + label::after {
+    background-color: darkgoldenrod;
+}
+
+p.output span {
+    color: yellow;
+    font-size: 50px;
+}
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    width: 90%;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 11px;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+
