@@ -12,19 +12,19 @@ function getAkanName(){
     var dateOfBirth = new Date(myBirthday);
     var dayOfTheWeek = dateOfBirth.getDay();
     if(myBirthday === ""){
-        document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
+        document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Must Have Submitted A Wrong Date, Please Correct!</div>";
         $('#message').addClass("animated shake");
     }
     else {
         for(var i=0;i<myGender.length;i++){
             if(myGender[i].checked){
                 if(myGender[i].value === "Male"){
-                    document.getElementById('message').innerHTML = "<span><i class=\"fa fa-male\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + maleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('message').innerHTML = "<span><i class=\"fa fa-male\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name is... <span>" + maleAkanNames[dayOfTheWeek] + "</span>";
                     $('#message span:first-child').addClass("animated fadeInDown");
                     $('#message span:last-child').addClass("animated fadeInUp");
                 }
                 else {
-                    document.getElementById('message').innerHTML = "<span><i class=\"fa fa-female\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + femaleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('message').innerHTML = "<span><i class=\"fa fa-female\"></i></span>&nbsp;&nbsp; Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name is...<span>" + femaleAkanNames[dayOfTheWeek] + "</span>";
                     $('#message span:first-child').addClass("animated fadeInDown");
                     $('#message span:last-child').addClass("animated fadeInUp");
                 }
