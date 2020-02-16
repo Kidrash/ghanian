@@ -107,6 +107,7 @@ span.starting-name {
 
 span.heading-name {
     color: yellow !important;
+    animation-direction: alternate;
 }
 
 span.closing-name {
@@ -227,9 +228,16 @@ span.closing-name {
     background-color: darkgoldenrod;
 }
 
+p#message.output{
+    font-style: oblique;
+    font-size: x-large;
+    color: black;
+}
+
 p.output span {
     color: yellow;
     font-size: 50px;
+    animation-direction: alternate;
 }
 
 .footer {
