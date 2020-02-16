@@ -240,19 +240,4 @@ p.output span {
     animation-direction: alternate;
 }
 
-.footer {
-    position: fixed; 
-    bottom: 0;
-    width: 90%;
-    text-align: center;
-    background-color: #ffffff;
-    margin-top: 50px;
-}
-
-.footer p {
-    font-size: 11px;
-    margin-bottom: 0px;
-    padding: 5px 0px 5px 0px;
-}
-
 
